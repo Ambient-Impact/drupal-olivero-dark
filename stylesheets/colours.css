@@ -1,0 +1,49 @@
+
+@media (prefers-color-scheme: dark) {
+
+  :root {
+
+    /* This doesn't exist in Olivero's CSS so we have to create it. */
+    --color--gray-80: hsl(
+      var(--color--gray-hue), var(--color--gray-saturation), 80%
+    );
+
+    --color-text-neutral-soft:    var(--color--gray-65);
+    --color-text-neutral-medium:  var(--color--gray-80);
+    --color-text-neutral-loud:    var(--color--gray-95);
+
+    --background-colour-dark-primary: var(--color--gray-5);
+
+    --background-colour-dark-secondary: var(--color--black);
+
+  }
+
+  body {
+    background-color: var(--background-colour-dark-secondary);
+  }
+
+  .page-wrapper.page-wrapper,
+  .site-header__inner.site-header__inner,
+  .header-nav.header-nav {
+    background-color: var(--background-colour-dark-primary);
+  }
+  .header-nav.header-nav {
+    border-block-start-color: var(--background-colour-dark-primary);
+  }
+
+  .social-bar.social-bar {
+    background-color: var(--background-colour-dark-secondary);
+  }
+
+  .text-content.text-content blockquote::after,
+  .cke_editable.cke_editable blockquote::after {
+    background-color: var(--color--gray-20);
+  }
+
+  .site-footer.site-footer {
+    background: linear-gradient(
+      180deg, var(--color--gray-10) 0%, var(--color--gray-5) 100%
+    );
+  }
+
+}

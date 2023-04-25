@@ -1,0 +1,4 @@
+colours:
+  css:
+    base:
+      stylesheets/colours.css: {}

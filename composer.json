@@ -1,0 +1,16 @@
+{
+  "name": "drupal/olivero_dark",
+  "description": "Olivero - Dark",
+  "type": "drupal-custom-theme",
+  "license": "GPL-2.0-or-later",
+  "authors": [
+    {
+      "name": "Ambient.Impact",
+      "homepage": "https://ambientimpact.com/",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "drupal/core": "^10.0 || <10.1"
+  }
+}
