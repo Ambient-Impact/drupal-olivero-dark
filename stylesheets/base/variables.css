@@ -19,6 +19,9 @@
     --color-text-neutral-medium:  var(--color--gray-80);
     --color-text-neutral-loud:    var(--color--gray-95);
 
+    /* This is primarily used by links so we need to invert the lightness from 40 to 60. */
+    --color-text-primary-medium:  var(--color--primary-60);
+
   }
 
 }
