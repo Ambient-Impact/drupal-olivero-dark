@@ -1,4 +1,4 @@
-colours:
+global-styling:
   css:
     base:
       stylesheets/base/variables.css: {}

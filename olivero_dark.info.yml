@@ -22,4 +22,4 @@ regions:
 
 libraries-extend:
   olivero/global-styling:
-    - olivero_dark/colours
+    - olivero_dark/global-styling
