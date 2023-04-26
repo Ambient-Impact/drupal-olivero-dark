@@ -7,6 +7,7 @@ colours:
       stylesheets/layout/layout.css: {}
       stylesheets/layout/social-bar.css: {}
     component:
+      stylesheets/components/breadcrumb.css: {}
       stylesheets/components/footer.css: {}
       stylesheets/components/button.css: {}
       stylesheets/components/form-text.css: {}

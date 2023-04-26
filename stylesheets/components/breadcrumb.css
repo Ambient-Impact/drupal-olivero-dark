@@ -1,0 +1,20 @@
+@media (prefers-color-scheme: dark) {
+
+  /* These were hard coded to var(--color--white) because reasons. ¯\_(ツ)_/¯ */
+  .breadcrumb::after {
+    background-image: linear-gradient(
+      to left,
+      var(--background-colour-dark-primary) 0%,
+      rgba(255, 255, 255, 0) 100%
+    );
+  }
+
+  [dir="rtl"] .breadcrumb::after {
+    background: linear-gradient(
+      to right,
+      var(--background-colour-dark-primary) 0%,
+      rgba(255, 255, 255, 0) 100%
+    );
+  }
+
+}
