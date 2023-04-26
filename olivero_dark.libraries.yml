@@ -8,6 +8,7 @@ colours:
       stylesheets/layout/social-bar.css: {}
     component:
       stylesheets/components/footer.css: {}
+      stylesheets/components/button.css: {}
       stylesheets/components/form-text.css: {}
       stylesheets/components/header-navigation.css: {}
       stylesheets/components/site-header.css: {}

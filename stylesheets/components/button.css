@@ -1,0 +1,7 @@
+@media (prefers-color-scheme: dark) {
+
+  .button {
+    border-color: var(--background-colour-dark-primary);
+  }
+
+}
