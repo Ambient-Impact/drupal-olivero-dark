@@ -1,4 +1,13 @@
 colours:
   css:
     base:
-      stylesheets/colours.css: {}
+      stylesheets/base/variables.css: {}
+      stylesheets/base/base.css: {}
+    layout:
+      stylesheets/layout/layout.css: {}
+      stylesheets/layout/social-bar.css: {}
+    component:
+      stylesheets/components/footer.css: {}
+      stylesheets/components/header-navigation.css: {}
+      stylesheets/components/site-header.css: {}
+      stylesheets/components/text-content.css: {}

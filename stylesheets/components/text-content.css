@@ -1,0 +1,8 @@
+@media (prefers-color-scheme: dark) {
+
+  .text-content blockquote::after,
+  .cke_editable blockquote::after {
+    background-color: var(--color--gray-20);
+  }
+
+}

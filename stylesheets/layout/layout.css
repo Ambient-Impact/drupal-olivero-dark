@@ -1,0 +1,7 @@
+@media (prefers-color-scheme: dark) {
+
+  .page-wrapper {
+    background-color: var(--background-colour-dark-primary);
+  }
+
+}

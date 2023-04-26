@@ -1,0 +1,9 @@
+@media (prefers-color-scheme: dark) {
+
+  .site-footer {
+    background: linear-gradient(
+      180deg, var(--color--gray-10) 0%, var(--color--gray-5) 100%
+    );
+  }
+
+}

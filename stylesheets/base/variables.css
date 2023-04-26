@@ -1,0 +1,24 @@
+:root {
+
+  /* This doesn't exist in Olivero's CSS so we have to create it. */
+  --color--gray-80: hsl(
+    var(--color--gray-hue), var(--color--gray-saturation), 80%
+  );
+
+  --background-colour-dark-primary: var(--color--gray-5);
+
+  --background-colour-dark-secondary: var(--color--black);
+
+}
+
+@media (prefers-color-scheme: dark) {
+
+  :root {
+
+    --color-text-neutral-soft:    var(--color--gray-65);
+    --color-text-neutral-medium:  var(--color--gray-80);
+    --color-text-neutral-loud:    var(--color--gray-95);
+
+  }
+
+}

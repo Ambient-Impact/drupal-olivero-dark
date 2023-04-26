@@ -1,0 +1,11 @@
+@media (prefers-color-scheme: dark) {
+
+  .header-nav {
+
+    background-color: var(--background-colour-dark-primary);
+
+    border-block-start-color: var(--background-colour-dark-primary);
+
+  }
+
+}
