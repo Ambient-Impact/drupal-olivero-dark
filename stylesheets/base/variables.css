@@ -15,7 +15,7 @@
 
   :root {
 
-    --color-text-neutral-soft:    var(--color--gray-65);
+    --color-text-neutral-soft:    var(--color--gray-70);
     --color-text-neutral-medium:  var(--color--gray-80);
     --color-text-neutral-loud:    var(--color--gray-95);
 
