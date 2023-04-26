@@ -23,3 +23,5 @@ regions:
 libraries-extend:
   olivero/global-styling:
     - olivero_dark/global-styling
+  olivero/tabs:
+    - olivero_dark/tabs

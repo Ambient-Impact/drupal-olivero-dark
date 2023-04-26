@@ -1,0 +1,21 @@
+@media (prefers-color-scheme: dark) {
+
+  .tabs {
+
+    --tabs-background-color: var(--color--gray-10);
+    --tabs-background-color-hover: var(--color--gray-20);
+
+    /* Minimum 3:1 contrast ratio against --tabs-background-color and --tabs-background-color-hover. */
+    --tabs-highlight-color: var(--color--primary-50);
+
+    /* Minimum 4.5:1 contrast ratio against --tabs-background-color and --tabs-background-color-hover. */
+    --tabs-text-color: var(--color-text-neutral-soft);
+
+    /* Minimum 4.5:1 contrast ratio against --tabs-background-color and --tabs-background-color-hover. */
+    --tabs-text-color-active: var(--color-text-neutral-loud);
+
+    --tabs-border-color: var(--color--gray-5);
+
+  }
+
+}
