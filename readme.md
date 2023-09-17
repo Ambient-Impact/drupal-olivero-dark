@@ -8,10 +8,10 @@ mode, this theme will display the light mode colours that ship with Drupal core;
 when your browser and operating system are set to dark mode, the dark mode
 colours will be used.
 
-Also note that this requires Drupal core 10.0.x, and will not be installable on
+Also note that this requires Drupal core 10.1.x, and will not be installable on
 previous versions due to [lack of CSS custom property
 support](https://www.drupal.org/project/drupal/issues/3257274#comment-14567683),
-nor on Drupal core 10.1.x or later because the Olivero CSS is marked as internal
+nor on Drupal core 10.2.x or later because the Olivero CSS is marked as internal
 and thus not guaranteed to obey semantic versioning rules so it could change
 drastically at any time. When new, stable core versions are tested and verified
 to work, the version constraint will be increased to allow them.
@@ -47,7 +47,7 @@ You'll need to edit the section to include this theme's repository like so:
 ```
 
 Save the file and then run
-`composer require "drupal/olivero_dark:10.0.x-dev@dev"` which should download
+`composer require "drupal/olivero_dark:10.1.x-dev@dev"` which should download
 the theme. Log into Drupal, find the theme in the themes list (under
 `/admin/appearance`), install it, and configure the default colour scheme if
 needed.
