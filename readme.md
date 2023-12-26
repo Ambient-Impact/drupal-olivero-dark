@@ -47,7 +47,7 @@ You'll need to edit the section to include this theme's repository like so:
 ```
 
 Save the file and then run
-`composer require "drupal/olivero_dark:10.1.x-dev@dev"` which should download
+`composer require "drupal/olivero_dark:^10.1@dev"` which should download
 the theme. Log into Drupal, find the theme in the themes list (under
 `/admin/appearance`), install it, and configure the default colour scheme if
 needed.
