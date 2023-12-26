@@ -9,7 +9,7 @@ when your browser and operating system are set to dark mode, the dark mode
 colours will be used.
 
 Also note that this requires Drupal core 10.0.x, and will not be installable on
-previous versions due to [lack of CSS custom property
+previous major core versions due to [lack of CSS custom property
 support](https://www.drupal.org/project/drupal/issues/3257274#comment-14567683),
 nor on Drupal core 10.1.x or later because the Olivero CSS is marked as internal
 and thus not guaranteed to obey semantic versioning rules so it could change
