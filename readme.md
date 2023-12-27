@@ -11,7 +11,7 @@ colours will be used.
 Also note that this requires Drupal core 10, and will not be installable on
 previous major core versions due to [lack of CSS custom property
 support](https://www.drupal.org/project/drupal/issues/3257274#comment-14567683),
-nor on Drupal core 10.2.x or later because the Olivero CSS is marked as internal
+nor on Drupal core 10.3.0 or later because the Olivero CSS is marked as internal
 and thus not guaranteed to obey semantic versioning rules so it could change
 drastically at any time. When new, stable core versions are tested and verified
 to work, the version constraint will be increased to allow them.

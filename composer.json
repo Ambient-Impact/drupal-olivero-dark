@@ -11,6 +11,6 @@
     }
   ],
   "require": {
-    "drupal/core": ">=10.0 <10.2"
+    "drupal/core": ">=10.0 <10.3"
   }
 }
